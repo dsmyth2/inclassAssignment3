@@ -12,7 +12,7 @@ const counter = () => {
   }
   return (
     <body className="bg-secondary min-vh-100 d-flex align-items-center">
-      <div className="body-wrapper bg-light d-flex flex-column align-items-center m-auto p-4 border border-2 border-primary rounded">
+      <div className="body-wrapper bg-light d-flex flex-column align-items-center m-auto p-4 border border-2 border-primary rounded shadow-lg">
         <h1 className="h1 text-dark py-2">Counter App</h1>
         <p className="border border-primary border-2 rounded py-1 px-4 text-dark counter h1 mb-5">
           {count}
